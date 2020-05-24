@@ -13,5 +13,8 @@ the wavemeter functionality
 
 ## Alternatives
 
-* If the proprietary Highfinesse TCP server is being used, but with limited API and no support for pub-sub: https://github.com/quartiq/highfinesse-net/
+* For the proprietary Highfinesse TCP server (unlikely to be released), but with very limited API and no support for pub-sub: https://github.com/quartiq/highfinesse-net/
 * Some integration into ARTIQ, smaller API coverage: https://github.com/dnadlinger/highfinesse-lsa-server
+* Modern web based frontend: https://github.com/galwiner/WLMpage
+* With labrad: https://github.com/nelsond/hfwlm and https://github.com/nelsond/labrad-hfwavemeter-server
+* In some Uni-Ulm code: https://github.com/Ulm-IQO/qudi/blob/master/hardware/high_finesse_wavemeter.py
