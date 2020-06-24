@@ -6,10 +6,10 @@ wavemeters. The modules paths may need some adjustment.
 It provides:
 
 * Wavemeter API shim for Python using ctypes
-* a RPC and PUB-SUB network interface (ZMQ through aiozmq) to pretty much all
-the wavemeter functionality
+* a fast RPC and PUB-SUB network server (ZMQ through aiozmq) to pretty much all
+the wavemeter status (based on notification callbacks, not polling)
 * a generic subscription client for the PUB-SUB protocol
-* a UDP logger for influxdb
+* a pull-style logger from the RPC server to influxdb-UDP
 
 ## Alternatives
 
